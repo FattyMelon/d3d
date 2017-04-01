@@ -135,7 +135,7 @@ bool d3d::InitD3D(
 		}
 	}
 
-	d3d9->Release(); // done with d3d9 object
+	d3d9->Release();// done with d3d9 object
 
 	return true;
 }

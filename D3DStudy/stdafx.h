@@ -11,6 +11,7 @@
 #include <tchar.h>
 #include <windows.h>
 
+//typedef unsigned long DWORD;
 //#define DEFAULT
 #define TRIANGLE
 //#define CUBE
