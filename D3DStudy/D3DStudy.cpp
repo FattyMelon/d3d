@@ -118,14 +118,14 @@ bool Display(float timeDelta)
 		Device->SetStreamSource(0, Triangle, 0, sizeof(ColorVertex));
 		Device->SetFVF(ColorVertex::FVF);
 
-		D3DXMatrixTranslation(&WorldMatrix, 0.f, 0.0f, 0.0f);
+		D3DXMatrixTranslation(&WorldMatrix, 1.f, 0.0f, 0.50f);
 		Device->SetTransform(D3DTS_WORLD, &WorldMatrix);
 
 		Device->SetRenderState(D3DRS_SHADEMODE, D3DSHADE_FLAT);
 		// Draw one triangle.
 		Device->DrawPrimitive(D3DPT_TRIANGLELIST, 0, 1);
 
-		D3DXMatrixTranslation(&WorldMatrix, 1.0f, 0.0f, 0.0f);
+		D3DXMatrixTranslation(&WorldMatrix, 0.0f, 0.0f, 0.0f);
 		Device->SetTransform(D3DTS_WORLD, &WorldMatrix);
 
 		Device->SetRenderState(D3DRS_SHADEMODE, D3DSHADE_GOURAUD);
@@ -137,8 +137,6 @@ bool Display(float timeDelta)
 	}
 	return true;
 }
-
-#endif
 
 //
 // WndProc
@@ -185,3 +183,5 @@ int WINAPI WinMain(HINSTANCE hInstance,
 
 	return 0;
 }
+
+#endif

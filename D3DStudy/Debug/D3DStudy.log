@@ -1,3 +1,2 @@
-﻿  D3DStudy.cpp
-c:\users\chensn\documents\visual studio 2015\projects\d3dstudy\d3dstudy\d3dstudy.cpp(168): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+﻿  d3dUtility.cpp
   D3DStudy.vcxproj -> C:\Users\chensn\Documents\Visual Studio 2015\Projects\D3DStudy\Debug\D3DStudy.exe

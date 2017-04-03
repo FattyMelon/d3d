@@ -13,8 +13,8 @@
 
 //typedef unsigned long DWORD;
 //#define DEFAULT
-#define TRIANGLE
-//#define CUBE
+//#define TRIANGLE
+#define LIGHTING
 
 
 // TODO:  在此处引用程序需要的其他头文件
